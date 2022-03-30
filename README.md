@@ -20,12 +20,12 @@ docker image build -t img-compress .
 ```
 2. 执行
 ```
-docker run -it --rm -v /img/input/dir:/from -v //img/output/dir:/to img-compress
+docker run -it --rm -v /img/input/dir:/from -v /img/output/dir:/to img-compress
 ```
 
 ### 使用我创建的Docker运行
 ```
-docker run -it --rm -v /img/input/dir:/from -v //img/output/dir:/to yhf7952/img-compress
+docker run -it --rm -v /img/input/dir:/from -v /img/output/dir:/to yhf7952/img-compress
 ```
 
 ### php环境中运行
