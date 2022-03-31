@@ -34,3 +34,6 @@ docker run -it --rm -v /img/input/dir:/from -v /img/output/dir:/to yhf7952/img-c
 ```
 php img.php
 ```
+
+## 更多介绍参见
+https://yantuz.cn/img-compress/
